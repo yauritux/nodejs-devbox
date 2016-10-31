@@ -5,9 +5,13 @@ A small Linux operating system ( **alpine** ) equipped with [NodeJS](https://nod
 1. Ensure you have docker client within your machine.
 2. Open the *terminal*
 3. Build the image by executing the following command:
->> `docker build -t yauritux/nodejs-devbox .`
+```
+docker build -t yauritux/nodejs-devbox .
+```
 4. Run the image by using the following command:
->> `docker run -it yauritux/nodejs-devbox`
+```
+docker run -it yauritux/nodejs-devbox
+```
 
 # LICENSE
 View [license](https://www.apache.org/licenses/) information for the software contained in this image.
